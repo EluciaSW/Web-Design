@@ -1,99 +1,124 @@
 body {
-    font-family: Helvetica, Oblique;
-    font-style: normal;
-    font-size: 16pt;
+    margin: 0 auto;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 32pt;
+    font-family: Helvetica, Oblique;
+}
+.container-full {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner {
+    display: flex;
+    min-height: 453px;
+    width: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.banner__bg-image {
+    content:' ';
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('./images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.banner__content {
+    z-index: 2;
+    justify-self: center;
+    padding: 80px;
+}
 
-}
-.buttonsignup {
-    border: 3px solid #ffffff;
+.button-signup {
+    display: block;
+    width: 185px;
     min-width: 185px;
-    height: 50px;
-    background: none;
-    font-family: "Helvetica";
-    font-style: bold;
+    padding: 20px;
+    margin: 0 auto;
+    background: blueviolet;
+    border-radius: 60px;
+    color: white;
     font-size: 18pt;
+    font-family: "Helvetica";
+    font-weight: bold;
+    text-decoration: none;
 }
-h1 {
-    font-family: Helvetica;
-    font-size: 65pt;
+.button-signup:hover {
+    background: white;
+}
+.hc-bolden {
+    font-weight: bolder;
+}
+.banner__header-text {
     width: auto;
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-size: 65pt;
+    font-family: Helvetica;
 }
-h2 {
+.banner__sub-text {
+    margin-top: 16px;
+    margin-bottom: 80px;
+    font-size: 35pt;
     font-family: 'Times New Roman';
     font-style: italic;
-    font-size: 35pt;
 }
 a {
     color: #1ab7c1;
+    transition: all 0.3s;
+}
+p {
+    line-height: 32pt;
 }
 a:hover {
     color: blueviolet;
 }
-.forest {
-    height: 369px;
-    width: 801px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+
+
+.main-content__media-block img {
+    width: 100%;
 }
 
-.lakes {
-    height: 369px;
-    width: 802px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.lakessub {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 9px;
-    margin-bottom: -10px;
-    display: block;
-    text-align: center;
-    font-size: 14pt;
-    line-height: 28pt;
-}
-section {
+
+.main-content {
     color: #9b9b9b;
-    width: 800px;
     margin-right: auto;
     margin-left: auto;
+    padding: 56px 0;
+}
+.main-content__media-block {
+    margin: 56px auto 56px auto;
 }
 .copyright {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
-    margin-top: -7px;
+    margin-top: 56px;
+    margin-bottom: 40px;
     text-align: center;
+    color: #9b9b9b;
     font-size: 14pt;
-    line-height: 28pt;
-    font-weight: 400;
-    letter-spacing: 0;
+    font-weight: normal;
 }
-.forestsub {
-    letter-spacing: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -10px;
+.subtext {
+    display: block;
+    width: 100%;
     margin-top: 8px;
+    font-size: 14px;
     text-align: center;
-    font-size: 14pt;
-    line-height: 28pt;
-    min-height: 18px;
-    min-width: 258px;
 }
-.lastparagraph {
-    margin-bottom: 62px;
-    margin-top: 52px;
-    height: 216px;
-    letter-spacing: 0;
-    width: 800px;
-}
+
 .header {
+    height: auto;
     max-width: 100%;
     max-height: 100vh;
-    height: auto;
 }
