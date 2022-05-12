@@ -94,7 +94,7 @@ p {
 .main-content__media-block img {
     width: 100%;
 }
-.subtext {
+.main-content__sub-text {
     display: block;
     width: 100%;
     margin-top: 8px;
