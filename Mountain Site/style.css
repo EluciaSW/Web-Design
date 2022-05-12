@@ -1,0 +1,99 @@
+body {
+    font-family: Helvetica, Oblique;
+    font-style: normal;
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 32pt;
+
+}
+.buttonsignup {
+    border: 3px solid #ffffff;
+    min-width: 185px;
+    height: 50px;
+    background: none;
+    font-family: "Helvetica";
+    font-style: bold;
+    font-size: 18pt;
+}
+h1 {
+    font-family: Helvetica;
+    font-size: 65pt;
+    width: auto;
+}
+h2 {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 35pt;
+}
+a {
+    color: #1ab7c1;
+}
+a:hover {
+    color: blueviolet;
+}
+.forest {
+    height: 369px;
+    width: 801px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.lakes {
+    height: 369px;
+    width: 802px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.lakessub {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    margin-bottom: -10px;
+    display: block;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 28pt;
+}
+section {
+    color: #9b9b9b;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.copyright {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: -7px;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 28pt;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.forestsub {
+    letter-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 28pt;
+    min-height: 18px;
+    min-width: 258px;
+}
+.lastparagraph {
+    margin-bottom: 62px;
+    margin-top: 52px;
+    height: 216px;
+    letter-spacing: 0;
+    width: 800px;
+}
+.header {
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+}
